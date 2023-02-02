@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.blackTheme{
+    background-color: #353D54;
+    color:white;
+}
+.whiteTheme{
+    background-color: #d9e2f3;
+    color:black;
+    
+}
+.black-theme-element{
+
+}
+.white-theme-elements{
+    
+}
+.dataTimeExit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+.dataTime{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.imgExitWhite{
+    width:40px; 
+    filter:invert(100%);
+}
+.imgExitBlack{
+    width:40px; 
+}
+.fio{
+   font-size: 160%;
+   font-weight: bold; 
+}
+.dateofBirth{
+    font-size: 140%;
+}
+.card{
+    background-color: #5B6E96;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 91%;
+    align-items: left;
+    padding: 2%;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.img1{
+    margin-top: 20px;
+    width: 100px;
+}
+.img2{
+    margin-top: 20px;
+    width: 20px;
+}
+.block{
+    background-color: #5B6E96;
+    font-family: DejaVu Sans Mono, monospace;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+.block1{
+    width: 35%;
+    max-height: 100%;
+    border-radius: 0 2% 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block2{
+    
+    width: 65%;
+    height: 100%;
+    display: flex;
+  
+}
+.block3{
+    width: 70%;
+    height: 70%;
+    margin-left: 80px;
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+}
+
+.move-box{
+    background-color: rgb(226, 139, 7);
+    margin: 10%;
+    text-align: center;
+    padding: 10%;
+    border-radius: 4px;
+    font-size: 26px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.information-for-users{
+    width: 95%;
+    height: 50%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+      
+}
+.info-box{
+    
+    background-color: #5B6E96;
+    text-align: center;
+    padding: 1%;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 4%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.logo{
+    
+    background-color: #333333;
+    width: 18%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 2%;
+
+}
+.logo-img{
+    width: 100%;
+}
+
