@@ -1,17 +1,17 @@
 <template>       
-    <div :class="[theme ? 'blackTheme' : 'whiteTheme', 'block']" >
-        <div :class="[theme ? 'blackTheme' : 'whiteTheme', 'block1']">
-            <div class="dataTimeExit">
-                <div class="dataTime">
+    <div :class="[theme ? 'black-theme' : 'white-theme', 'block']" >
+        <div :class="[theme ? 'black-theme' : 'white-theme', 'block-1']">
+            <div class="data-time-exit">
+                <div class="data-time">
                     <div>{{dataUser}}</div>
                     <div>{{timeUser}}</div> 
                 </div>
                 <div class="exit">
                     <div>Выход</div>
-                    <img :class="{imgExitWhite:theme, imgExitBlack:!theme}" src=".\exitIcon.png" alt="exit">
+                    <img :class="[theme ? 'img-exit-white' : 'img-exit-black']" src=".\exitIcon.png" alt="exit">
                 </div>
             </div>
-            <div class="toggleComponent">
+            <div class="toggle-component">
                 <input @click="myFilter" type="checkbox" id="toggle_checkbox">
                 <label for="toggle_checkbox">
                     <div id="star">
@@ -24,7 +24,7 @@
             <div class="card">
 
                 <div class="fio">{{fio}}</div>
-                <div class="dateofBirth">{{dateofBirth}}</div>
+                <div class="date-of-birth">{{date-of-birth}}</div>
                 <div class="tabN">Таб №: {{tabN}}</div>
                 <div class="position">{{position}}</div>
             
@@ -32,15 +32,15 @@
             <div class="information-for-users">
                 <div class="info-box" v-for="userINFO in UserInformations" v-bind:key="userINFO">
                     <div>{{userINFO.title}}</div>
-                    <div><img class="img1" :src="userINFO.img" alt="1"></div>
+                    <div><img class="img-1" :src="userINFO.img" alt="1"></div>
                 </div>
             </div>  
         </div>
-        <div class="block2">
-            <div class="block3">
+        <div class="block-2">
+            <div class="block-3">
                 <div class="move-box" v-for="moveINFO in moveInformations" v-bind:key="moveINFO">
                     <div>{{moveINFO.title}}</div>
-                    <div><img class="img2" :src="moveINFO.img" alt="1"></div>   
+                    <div><img class="img-2" :src="moveINFO.img" alt="1"></div>   
                 </div> 
             </div>
             <div class="logo">

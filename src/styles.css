@@ -4,22 +4,15 @@
     box-sizing: border-box;
 
 }
-.blackTheme{
+.black-theme{
     background-color: #353D54;
     color:white;
 }
-.whiteTheme{
+.white-theme{
     background-color: #d9e2f3;
-    color:black;
-    
+    color:black;   
 }
-.black-theme-element{
-
-}
-.white-theme-elements{
-    
-}
-.dataTimeExit{
+.data-time-exit{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -27,7 +20,7 @@
     font-size: 24px;
     
 }
-.dataTime{
+.data-time{
     margin-top: 2%;
     margin-left: 2%;
 }
@@ -38,18 +31,18 @@
     margin-right: 2%;
     margin-top: 2%;
 }
-.imgExitWhite{
+.img-exit-white{
     width:40px; 
     filter:invert(100%);
 }
-.imgExitBlack{
+.img-exit-black{
     width:40px; 
 }
 .fio{
    font-size: 160%;
    font-weight: bold; 
 }
-.dateofBirth{
+.date-of-birth{
     font-size: 140%;
 }
 .card{
@@ -65,11 +58,11 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     
 }
-.img1{
+.img-1{
     margin-top: 20px;
     width: 100px;
 }
-.img2{
+.img-2{
     margin-top: 20px;
     width: 20px;
 }
@@ -81,7 +74,7 @@
     display: flex;
     position: absolute;
 }
-.block1{
+.block-1{
     width: 35%;
     max-height: 100%;
     border-radius: 0 2% 2% 0;
@@ -89,14 +82,14 @@
     flex-direction: column;
     align-items: center;
 }
-.block2{
+.block-2{
     
     width: 65%;
     height: 100%;
     display: flex;
   
 }
-.block3{
+.block-3{
     width: 70%;
     height: 70%;
     margin-left: 80px;
