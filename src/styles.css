@@ -17,19 +17,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 16px;
     
 }
 .data-time{
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .exit{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-right: 2%;
-    margin-top: 2%;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 .img-exit-white{
     width:40px; 

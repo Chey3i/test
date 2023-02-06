@@ -1,12 +1,10 @@
 .toggle-component{
     width: 100%;  
-    margin-top: 6%;
-    margin-bottom: 15%;
+    margin-top: 60px;
+    margin-bottom: 40px;
     display: flex; 
     justify-content: flex-end;
-    height: 5%;
-    
-     
+    height: 80px;  
 }
 
 *
@@ -14,16 +12,9 @@
     user-select: none;  
 }
 
-html, body
-{
-    height: 100%;
-}
 
-body
-{
-    margin: 0;
-    background-color: #fff;
-}
+
+
 
 #toggle_checkbox
 {
@@ -36,9 +27,9 @@ label
     
     right: 0;
     left: 0;
-    width: 100px;
-    height: 40px;
-    margin:4%;
+    width: 70px;
+    height: 30px;
+    margin:20px;
     background-color: #5B6E96;
     border-radius: 56px;
     transform: translateY(-50%);
