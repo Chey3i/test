@@ -44,9 +44,9 @@
                     <div><img class="img-2" :src= "require(`${moveINFO.img}`)" alt="1"></div>   
                 </div> 
             </div>
-            <div class="logo">
+        </div>
+        <div class="logo">
                 <img class="logo-img" src="./images3/logo.png" alt="logo">
-            </div>
         </div>
     </div>     
 </template>
