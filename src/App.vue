@@ -1,4 +1,5 @@
-<template>       
+<template>  
+     
     <div :class="[theme ? 'black-theme' : 'white-theme', 'block']" >
         <div :class="[theme ? 'black-theme' : 'white-theme', 'block-1']">
             <div class="data-time-exit">
@@ -8,7 +9,7 @@
                 </div>
                 <div class="exit">
                     <div>Выход</div>
-                    <img :class="[theme ? 'img-exit-white' : 'img-exit-black']" src="./exitIcon.png" alt="exit">
+                    <img :class="[theme ? 'img-exit-white' : 'img-exit-black']" src="./images3/exitIcon.png" alt="exit">
                 </div>
             </div>
             <div class="toggle-component">
@@ -32,7 +33,7 @@
             <div class="information-for-users">
                 <div class="info-box" v-for="userINFO in UserInformations" v-bind:key="userINFO">
                     <div>{{userINFO.title}}</div>
-                    <div><img class="img-1" :src="userINFO.img" alt="1"></div>
+                    <div><img class="img-1" :src="require(`${userINFO.img}`)" alt="1"></div>
                 </div>
             </div>  
         </div>
@@ -40,11 +41,11 @@
             <div class="block-3">
                 <div class="move-box" v-for="moveINFO in moveInformations" v-bind:key="moveINFO">
                     <div>{{moveINFO.title}}</div>
-                    <div><img class="img-2" :src="moveINFO.img" :alt="1"></div>   
+                    <div><img class="img-2" :src= "require(`${moveINFO.img}`)" alt="1"></div>   
                 </div> 
             </div>
             <div class="logo">
-                <img class="logo-img" src="./logo.png" alt="logo">
+                <img class="logo-img" src="./images3/logo.png" alt="logo">
             </div>
         </div>
     </div>     
@@ -52,6 +53,7 @@
 
 <script>
 export default {
+    
     data() {
         return {
             dataUser : 'XX.XX.XXXX',

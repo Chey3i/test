@@ -52,19 +52,20 @@
     flex-wrap: wrap;
     width: 91%;
     align-items: left;
-    padding: 2%;
+    padding: 24px;
     border-radius: 4px;
-    margin-bottom: 2%;
+    margin-bottom: 40px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     
 }
 .img-1{
     margin-top: 20px;
-    width: 100px;
+    width: 160px;
 }
+
 .img-2{
     margin-top: 20px;
-    width: 20px;
+    width: 200px;
 }
 .block{
     background-color: #5B6E96;
@@ -101,9 +102,9 @@
 
 .move-box{
     background-color: rgb(226, 139, 7);
-    margin: 10%;
+    margin: 20px;
     text-align: center;
-    padding: 10%;
+    padding-top: 20px;
     border-radius: 4px;
     font-size: 26px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -121,10 +122,11 @@
     
     background-color: #5B6E96;
     text-align: center;
-    padding: 1%;
+    align-items: center;
+    padding-top: 14px;
     border-radius: 4px;
     font-size: 20px;
-    margin: 4%;
+    margin: 12px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     
 }
